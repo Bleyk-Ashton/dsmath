@@ -26,14 +26,26 @@ $f(x) = \frac{1}{\sqrt{2 \pi \sigma^2}} e^{-\frac{(x - \mu)^2}{2 \sigma^2}}$
 
 ## Bleyk Gutierrez
 
-Varianza:
+### Varianza
 
-$\sigma^2 = \frac{\sum_{i=1}^{N} (x_i - \bar{x})^2}{N}$
+La varianza, que representa la dispersión de los datos alrededor de la media, se calcula de la siguiente manera:
 
-Covarianza: 
+\[
+\sigma^2 = \frac{\sum_{i=1}^{N} (x_i - \bar{x})^2}{N}
+\]
 
-$\text{Cov}(X, Y) = \frac{1}{n-1} \sum_{i=1}^{n} (x_i - \bar{x})(y_i - \bar{y})$
+### Covarianza
 
-Distribucion normal:
+La covarianza entre dos variables \(X\) e \(Y\) mide la relación lineal entre ambas y se define como:
 
-$f(x) = \frac{1}{\sqrt{2 \pi \sigma^2}} e^{-\frac{(x - \mu)^2}{2 \sigma^2}}$
+\[
+\text{Cov}(X, Y) = \frac{1}{n-1} \sum_{i=1}^{n} (x_i - \bar{x})(y_i - \bar{y})
+\]
+
+### Distribución Normal
+
+La función de densidad de una distribución normal con media \(\mu\) y varianza \(\sigma^2\) es:
+
+\[
+f(x) = \frac{1}{\sqrt{2 \pi \sigma^2}} e^{-\frac{(x - \mu)^2}{2 \sigma^2}}
+\]
